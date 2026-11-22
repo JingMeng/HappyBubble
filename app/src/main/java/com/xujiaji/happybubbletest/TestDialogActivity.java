@@ -1,9 +1,9 @@
-package com.xujiaji.happybubbletest;
+﻿package com.xujiaji.happybubbletest;
 
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -21,20 +21,16 @@ import com.xujiaji.happybubble.Util;
 public class TestDialogActivity extends Activity implements View.OnClickListener
 {
     /**
-     * 左
-     */
+     * 宸?     */
     private RadioButton mRbLeft;
     /**
-     * 上
-     */
+     * 涓?     */
     private RadioButton mRbTop;
     /**
-     * 右
-     */
+     * 鍙?     */
     private RadioButton mRbRight;
     /**
-     * 下
-     */
+     * 涓?     */
     private RadioButton mRbBottom;
     /**
      * Button
@@ -245,7 +241,7 @@ public class TestDialogActivity extends Activity implements View.OnClickListener
                     @Override
                     public void onClick(String str)
                     {
-                        mButton10.setText("点击了：" + str);
+                        mButton10.setText("鐐瑰嚮浜嗭細" + str);
                     }
                 });
                 codDialog.show();
@@ -272,3 +268,4 @@ public class TestDialogActivity extends Activity implements View.OnClickListener
         }
     }
 }
+

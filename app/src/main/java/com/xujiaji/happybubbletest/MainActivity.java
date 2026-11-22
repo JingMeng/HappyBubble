@@ -1,8 +1,8 @@
-package com.xujiaji.happybubbletest;
+﻿package com.xujiaji.happybubbletest;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.SeekBar;
@@ -198,3 +198,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return (int) (dipValue * scale + 0.5f);
     }
 }
+
